@@ -49,7 +49,7 @@ export default function PortfolioWebsite() {
     "OpenAI API"
   ];
 
-  const speakMessage = (text) => {
+  const speakMessage = (text: string) => {
     const speech = new SpeechSynthesisUtterance(text);
     speech.rate = 1;
     speech.pitch = 1;
